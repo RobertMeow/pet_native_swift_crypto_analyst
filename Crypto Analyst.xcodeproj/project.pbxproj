@@ -36,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		905C9EC32C6E174800739331 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		905C9EC42C6E174800739331 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		905C9EC52C6E177E00739331 /* ios.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = ios.yml; sourceTree = "<group>"; };
+		905C9EC82C6E177E00739331 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		907192302C695DDF00DB8DFB /* CoinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinService.swift; sourceTree = "<group>"; };
 		907192322C695E1A00DB8DFB /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		907192342C695E4000DB8DFB /* CoinListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListView.swift; sourceTree = "<group>"; };
@@ -75,6 +79,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		905C9EC62C6E177E00739331 /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				905C9EC52C6E177E00739331 /* ios.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
+		905C9EC72C6E177E00739331 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				905C9EC62C6E177E00739331 /* workflows */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
 		9071922C2C695DA200DB8DFB /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +133,10 @@
 		9074DBA92C63B727009DC123 = {
 			isa = PBXGroup;
 			children = (
+				905C9EC72C6E177E00739331 /* .github */,
+				905C9EC82C6E177E00739331 /* .gitignore */,
+				905C9EC32C6E174800739331 /* LICENSE */,
+				905C9EC42C6E174800739331 /* README.md */,
 				9074DBB42C63B727009DC123 /* Crypto Analyst */,
 				9074DBB32C63B727009DC123 /* Products */,
 			);
